@@ -1,3 +1,13 @@
 {
-  "item.testmod.sapphire": "sapphire"
+  "item.testmod.sapphire": "蓝宝石",
+  "item.testmod.emerald": "绿宝石",
+  "item.testmod.ruby": "红宝石",
+  "item.testmod.topaz": "黄宝石",
+
+  "block.testmod.sapphire_block": "蓝宝石块",
+  "block.testmod.emerald_block": "绿宝石块",
+  "block.testmod.ruby_block": "红宝石块",
+  "block.testmod.topaz_block": "黄宝石块",
+
+  "itemGroup.GemTab": "宝石"
 }

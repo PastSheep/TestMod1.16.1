@@ -1,6 +1,9 @@
 package com.pastsheep.testmod;
 
 import com.pastsheep.testmod.util.RegistryHandler;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -31,5 +34,12 @@ public class ModLeader
     private void setup(final FMLCommonSetupEvent event) {}
 
     private void doClientStuff(final FMLClientSetupEvent event) {}
+
+    public static final ItemGroup GEM_TAB = new ItemGroup("GemTab") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegistryHandler.SAPPHIRE.get());
+        }
+    };
 
 }
